@@ -1,0 +1,33 @@
+# Models (too large)
+*.gguf
+*.bin
+*.pt
+*.safetensors
+*.imatrix
+*.dat
+
+# Build
+*.o
+*.so
+
+# Cache
+cache/
+build-*.log
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets
+.env
+credentials/
+
+# IDE
+.vscode/
+.idea/
+.claude/
+
+# OS
+.DS_Store

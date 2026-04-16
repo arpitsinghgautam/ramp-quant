@@ -2,7 +2,13 @@
 
 **RAMP: RL-guided Adaptive Mixed-Precision quantization for GGUF models. Produces hardware-optimized quantized models for consumer GPUs.**
 
-RAMP uses data-free sensitivity analysis (no calibration data needed), evolutionary search, and per-tensor type optimization to find the best mixed-precision configuration for your specific hardware and VRAM budget.
+This implementation builds on the **RAMP** framework introduced in the original research paper:
+
+> **RAMP: Reinforcement Adaptive Mixed Precision Quantization for Efficient On Device LLM Inference**  
+> Arpit Singh Gautam, Saurabh Jha  
+> [arXiv:2603.17891](https://arxiv.org/abs/2603.17891)
+
+RAMP uses data-free sensitivity analysis (no calibration data needed), evolutionary search, and per-tensor type optimization to find the best mixed-precision configuration for your specific hardware and VRAM budget
 
 ## Key result
 
